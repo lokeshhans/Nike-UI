@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #9e9ea7;
+    position: relative;
+}
+#nav{
+    height: 90px;
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 50px;
+    width: 100%;
+    margin-right: 100px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-part1 h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    /* font-style: italic; */
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+#nav-part2 i{
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+#content{
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+}
+#left{
+    width: 30%;
+    height: 100%;
+    /* background: #000; */
+    padding: 250px 90px;
+
+}
+#left h5{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #4e4e52;
+
+}
+#left h1{
+    font-size: 70px;
+    margin-bottom: 25px;
+    line-height: 60px;
+}
+#left p{
+    font-size: 15px;
+    color: #4e4e52;
+    line-height: 15px;
+
+}
+#left button{
+    background-color: black;
+    height: 50px;
+    width: 130px;
+    color: #ffffff;
+    margin-top: 40px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+#right{
+    width:  70%;
+    height: 100%;
+    background-color: #9e9ea7;
+    /* display: flex; */
+    justify-content: space-between;
+    align-content: center ;
+    position: relative;
+    padding: 100px ;
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#elem{
+    height: 560px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    border-radius: 9px;
+    margin-right: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+#elem img{
+    position: absolute;
+    height: 60%;
+    top: 15%;
+    width: 100%;
+    object-fit: cover;
+}
+#elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #4e4e52;
+    color: antiquewhite;
+    padding: 20px 30px;
+    font-size: 13px;
+    border-radius: 9px;
+}
+#elem h5{
+    position: absolute;
+    bottom: 12%;
+    right: 0;
+    background-color: #000000;
+    color: antiquewhite;
+    padding: 20px 30px;
+    font-size: 13px;
+    border-radius: 9px;
+}
